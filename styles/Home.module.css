@@ -135,6 +135,15 @@ vertical-align: baseline;
 margin-top: 32px;
 margin-bottom: 16px;
 }
+.btnForm:disabled{
+  background-color: #cccccc;
+}
+.btnForm:hover:disabled{
+  background-color: #cccccc;
+}
+.btnForm:hover{
+  background-color: #00c1de;
+}
 .form{
   margin-top: 32px;
 }
@@ -177,7 +186,7 @@ margin-bottom: 16px;
 @media (prefers-color-scheme: dark) {
   .card,
   .footer {
-    border-color: #061b2b;
+    border-color: #cccccc;
   }
   .code {
     background: #061b2b;
