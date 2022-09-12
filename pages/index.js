@@ -8,7 +8,7 @@ import styles from "../styles/Home.module.css";
 
 export default function Home() {
   const [value, setValue] = useState(0); //valor input
-  console.log('value--', value)
+  console.log("value--", value);
 
   return (
     <div className={styles.container}>
@@ -29,13 +29,13 @@ export default function Home() {
         <h1 className={styles.title}>
           The best way to predict the future is to invent it.
         </h1>
-        <Form sendData={setValue}/>
-        <Result valueResult={value}/>
+        <Form sendData={setValue} />
+        <Result valueResult={value} />
       </main>
 
       <footer className={styles.footer}>
         <a
-          href="https://github.com/RubSDev/sngular_pt
+          href="https://github.com/RubSDev/sngular_pt"
           target="_blank"
           rel="noopener noreferrer"
         >
