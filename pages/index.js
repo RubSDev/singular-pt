@@ -35,7 +35,7 @@ export default function Home() {
 
       <footer className={styles.footer}>
         <a
-          href="https://github.com/RubSDev/sngular-pt"
+          href="https://github.com/RubSDev/sngular_pt
           target="_blank"
           rel="noopener noreferrer"
         >
