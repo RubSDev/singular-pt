@@ -27,7 +27,7 @@ export default function Home() {
           height={116}
         />
         <h1 className={styles.title}>
-          "The best way to predict the future is to invent it."
+          The best way to predict the future is to invent it.
         </h1>
         <Form sendData={setValue}/>
         <Result valueResult={value}/>
