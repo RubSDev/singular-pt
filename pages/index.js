@@ -1,3 +1,5 @@
+import { useState } from "react";
+
 import Head from "next/head";
 import Form from "../components/Form";
 import Result from "../components/Result";
@@ -5,6 +7,9 @@ import Image from "next/image";
 import styles from "../styles/Home.module.css";
 
 export default function Home() {
+  const [value, setValue] = useState(0); //valor input
+  console.log('value--', value)
+
   return (
     <div className={styles.container}>
       <Head>
@@ -24,8 +29,8 @@ export default function Home() {
         <h1 className={styles.title}>
           "The best way to predict the future is to invent it."
         </h1>
-        <Form />
-        <Result/>
+        <Form sendData={setValue}/>
+        <Result valueResult={value}/>
       </main>
 
       <footer className={styles.footer}>

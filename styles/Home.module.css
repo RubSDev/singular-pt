@@ -86,6 +86,7 @@
   text-decoration: none;
   border: 1px solid #eaeaea;
   background-color: #fafafa;
+  color: #061b2b;
   border-radius: 10px;
   transition: color 0.15s ease, border-color 0.15s ease;
   max-width: 300px;
@@ -176,12 +177,18 @@ margin-bottom: 16px;
 @media (prefers-color-scheme: dark) {
   .card,
   .footer {
-    border-color: #222;
+    border-color: #061b2b;
   }
   .code {
-    background: #111;
+    background: #061b2b;
   }
   .logo img {
     filter: invert(1);
+  }
+  .title {
+    margin: 5%;
+    line-height: 1.15;
+    font-size: 2rem;
+    color: #00c1de;
   }
 }
